@@ -1,0 +1,123 @@
+html,body {  
+    height: auto;
+    margin: 0;
+    padding: 0;
+   }  
+  
+.right-nav{
+    display: flex; /* yatay hizalama */
+    justify-content: flex-end; /* Elemanları sağa hizalama */
+    list-style: none; /* kenar bosluklari kaldirma */
+    padding: 0%;
+
+}
+
+.right-nav li{
+    margin: 10px; /* elemanlar arasi bosluk birakmak icin */
+    
+}
+.right-nav li a{
+    color: rgb(75, 75, 75);
+    text-decoration: none;
+
+}
+.sign_button {
+    
+    background-color: rgb(68, 137, 227);
+    padding: 7px;
+    
+   
+    border-radius: 2px;
+}
+
+.sign_button a{
+    color:white !important;
+    
+    
+}
+.menu{
+    width: 17px;
+    margin-top: 2px;
+    opacity: 0.65;
+}
+
+.center_part {
+    text-align: center; /* İçeriği yatayda ortala */
+    padding-top: 100px;
+    
+  }
+  
+.logo {
+    display: block; /* Resmi blok öğesi olarak görüntüle */
+    margin: 0 auto; /* Resmi yatayda ortala */
+    
+  }
+.mic {  
+    width: 14px;  
+    height: 20px;  
+    position: relative;  
+    left: 215px;  
+    top: 53px;  
+   }    
+
+.search_bar{
+    width: 470px;
+    border-radius:20px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color:rgb(214, 207, 207);
+
+}
+.search_buttons{
+    margin: 10px;
+    
+}
+.submit_buttons{
+    border-radius: 2px;
+    margin:3px;
+    border-style: none;
+    padding: 10px;
+    width: 150px;
+    color: rgb(112, 111, 111);
+
+}
+
+footer{
+    background-color: #f2f2f2;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    
+}
+.bottomInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bottomInfo .left-ftr{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    gap: 15px;
+}
+
+
+.left-ftr li a{
+    text-decoration: none;
+    color: grey;
+    
+}
+.bottomInfo .right-ftr{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    text-decoration: none;
+    gap: 15px;
+    margin-right:40px;
+}
+.right-ftr li a{
+    text-decoration: none;
+    color: grey;
+}
